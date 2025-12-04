@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Individual Assignment 3</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<h1 class="responsive-svg-container" style="text-align:center">
+		Individual Assignment 3: D3 Implementation
+	</h1>
+
+	<!-- SVG -->
+	<div id="dataviz" class="responsive-svg-container"></div>
+
+	<!-- Select year -->
+	<div id="controls" style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+		<button id="btn-prev" style="padding: 5px 15px;">&lt;</button>
+		<span id="year-display" style="font-weight: bold; font-size: 20px; margin: 0 15px;">2022</span>
+		<button id="btn-next" style="padding: 5px 15px;">&gt;</button>
+	</div>
+
+	<!-- Tooltip -->
+	<div id="tooltip" class="tooltip"></div>
+
+	<script src="./d3.js"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
