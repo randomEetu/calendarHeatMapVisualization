@@ -1,2 +1,6 @@
 # calendarHeatMapVisualization
-An interactive visualization that maps temporal data onto a calendar grid, supporting paging and detailed intraday analysis.
+
+An interactive calendar heatmap visualizing temporal per-date data, featuring:
+- **Cyclic Analysis:** Week vs. Day grid layout.
+- **Details-on-Demand:** Hover tooltips with sparklines showing intraday trends.
+- **Filtering:** Interactive paging between years.
